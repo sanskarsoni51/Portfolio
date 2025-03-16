@@ -154,9 +154,9 @@ export default function Home() {
       {/* Contact Section */}
       <section className="py-20 bg-white dark:bg-gray-800">
         <div className="container mx-auto px-4 text-center max-w-3xl">
-          <h2 className="text-3xl font-bold mb-8">Let's Work Together</h2>
+          <h2 className="text-3xl font-bold mb-8">{`Let's Work Together`}</h2>
           <p className="text-xl mb-8 text-gray-600 dark:text-gray-300">
-            I'm always excited to take on new challenges and create innovative solutions. Let's discuss how we can bring your ideas to life.
+            {`I'm always excited to take on new challenges and create innovative solutions. Let's discuss how we can bring your ideas to life.`}
           </p>
           <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <a 
