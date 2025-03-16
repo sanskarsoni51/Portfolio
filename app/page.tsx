@@ -59,7 +59,7 @@ export default function Home() {
               <a href="mailto:sanskarsoni89@gmail.com" className="hover:text-purple-600">sanskarsoni89@gmail.com</a>
             </div>
             <div className="flex items-center">
-              <FaPhone className="mr-2" />
+              <FaPhone className="mr-2 scale-x-[-1]" />
               <a href="tel:+919887279510" className="hover:text-purple-600">+91 9887279510</a>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Home() {
             <a href="https://github.com/sanskarsoni51">
             <FaGithub className="hover:text-purple-600 cursor-pointer transition-colors" />
             </a>
-            <a href="www.linkedin.com/in/sanskarsoni51">
+            <a href="https://www.linkedin.com/in/sanskarsoni51/">
             <FaLinkedin className="hover:text-purple-600 cursor-pointer transition-colors" />
             </a>
           </div>
@@ -170,7 +170,7 @@ export default function Home() {
               href="tel:+919887279510"
               className="flex items-center gap-2 bg-gray-600 text-white px-8 py-3 rounded-lg hover:bg-gray-700 transition-colors"
             >
-              <FaPhone />
+              <FaPhone className='scale-x-[-1]'/>
               Call Me
             </a>
           </div>
