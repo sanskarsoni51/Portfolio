@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaReact, FaNodeJs, FaJava, FaEnvelope, FaPhone } from 'react-icons/fa';
+import Link from 'next/link';
+import { FaGithub, FaLinkedin, FaReact, FaNodeJs, FaJava, FaEnvelope, FaPhone, FaFileDownload } from 'react-icons/fa';
 import { SiSpringboot, SiMongodb, SiNextdotjs, SiFigma, SiExpress, SiTailwindcss } from 'react-icons/si';
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
       description: "Tour booking platform with comprehensive tour management, user authentication, and payment integration.",
       tech: ["Pug.js", "Node.js", "Express.js", "MongoDB"],
       image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=2074",
-      link: "https://natours.netlify.app"
+      link: "https://natours-6st2.onrender.com/"
     },
     {
       title: "Vedic Healing and Wellness",
@@ -72,6 +73,25 @@ export default function Home() {
             </a>
           </div>
         </motion.div>
+      </section>
+
+      {/* CV/Resume Section */}
+      <section className="py-20 bg-white dark:bg-gray-800">
+        <div className="container mx-auto px-4 text-center max-w-3xl">
+          <h2 className="text-3xl font-bold mb-8">Curriculum Vitae</h2>
+          <p className="text-xl mb-8 text-gray-600 dark:text-gray-300">
+            View my detailed professional experience, education, and skills.
+          </p>
+          <div className="flex justify-center space-x-4">
+            <Link 
+              href="/cv"
+              className="inline-flex items-center gap-2 bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors"
+            >
+              View Full CV
+            </Link>
+
+          </div>
+        </div>
       </section>
 
       {/* Skills Section */}
